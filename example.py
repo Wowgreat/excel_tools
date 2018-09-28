@@ -1,4 +1,4 @@
-from excel import Excel
+from concretizations.excel_man_openpyxl import ExcelManOpenPyXl
 
-excel = Excel(filepath='test.xlsx')
-print(excel.columns)
+excel = ExcelManOpenPyXl('one.xlsx', has_title=True)
+print(excel.get_lines_and_columns(title='title'))

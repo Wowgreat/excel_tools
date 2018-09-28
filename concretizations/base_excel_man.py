@@ -9,7 +9,7 @@ class BaseExcelMan():
     worksheet = None
     char_list = {}
     has_title = None
-    titles = None
+    titles = {}
     # {
     #     format as 'A: title1' or 'AB: titlexx'
     # }

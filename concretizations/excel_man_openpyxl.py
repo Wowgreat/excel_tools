@@ -25,6 +25,11 @@ class ExcelManOpenPyXl(BaseExcelMan):
         title_line = self.get_lines_and_columns_num(1)
         for i in range(0, len(title_line)):
             if i <= 25:
-                self.titles[title_line[i]] = self.char_list['A-Z'][i]
-            elif i > 25:
-                pass
+                k = title_line[i]
+                v = self.char_list['A-Z'][i]
+                self.titles[k] = v
+
+        #     if i <= 25:
+        #         self.titles[title_line[i]] = self.char_list['A-Z'][i]
+        #     elif i > 25:
+        #         pass

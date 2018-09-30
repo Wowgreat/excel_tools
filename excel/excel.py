@@ -1,4 +1,4 @@
-from concretizations import ExcelManOpenPyXl
+from excel.excel_man_openpyxl import ExcelManOpenPyXl
 class Excel():
     '''
     NO.1: Excel provide some common method for excel options,

@@ -1,0 +1,17 @@
+Metadata-Version: 1.1
+Name: excel
+Version: 0.0.1
+Summary: A simple package for excel options
+Home-page: https://github.com/Wowgreat/excel_tools
+Author: neo zhang
+Author-email: suganzhang123@gmail.com
+License: UNKNOWN
+Description: # excel_tools
+        
+        This is a simple excel_tools package. You can use
+        [Github-flavored Markdown](https://guides.github.com/features/mastering-markdown/)
+        to write your content.
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
